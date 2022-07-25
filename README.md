@@ -1,25 +1,12 @@
-# Shopping Cart  
-A simple E-commerce website using Flask.
-  
-## Dependencies ##
-1. Python3
-2. Flask
-3. Sqlite
+#Working Adyen Example
+Demos:
+Tokenization, /paymentMethods, /sessions, Drop-In, and Components
 
-## How to run ##
-1. Set up database by running database.py (Or you can reuse existing database included in the repo)
-2. Run main.py
-3. Enter localhost:5000 in the browser
+1. Clone Repo
+2. Set up .env file (https://docs.adyen.com/development-resources/client-side-authentication)
+3. In Terminal:
+    3.1. Type `source ./setup.sh`
+    3.2. Type  `./start.sh`
+4. Open a private web browser window and go to: http://localhost:8080/
 
-## Pipenv instructions ##
-1. Install pipenv (python3 -m pip install --user pipenv)
-2. Install dependencies (pipenv install --dev)
-3. Setup database (pipenv run python database.py)
-4. Run the server (pipenv run python main.py)
-5. Enter localhost:5000 in the browser
-
-## Sample User ##
-Sample credentials present in existing database:
-Username - sample@example.com
-Password - sample
 
