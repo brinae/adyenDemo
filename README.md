@@ -3,10 +3,17 @@
 Tokenization, /paymentMethods, /sessions, Drop-In, and Components
 
 1. Clone Repo
-2. Set up .env file (https://docs.adyen.com/development-resources/client-side-authentication)
-3. In Terminal: 
+2. Set up .env file:
+    - ```
+    PORT=8080
+    ADYEN_MERCHANT_ACCOUNT="Merch Account"
+    ADYEN_API_KEY="API KEY"
+    ADYEN_CLIENT_KEY="Client Key"
+    ADYEN_HMAC_KEY="HMAC KEY"
+    ```
+4. In Terminal: 
     - Type `source ./setup.sh` 
     - Type  `./start.sh` 
-4. Open a private web browser window and go to: http://localhost:8080/
+5. Open a private web browser window and go to: http://localhost:8080/
 
 
